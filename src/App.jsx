@@ -1,13 +1,13 @@
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
-function App() {
+import React from 'react'
+import { Cursol } from './component/Cursol'
 
 
+const App = () => {
   return (
-    <>
-  
-    </>
+    <div>
+
+      <Cursol></Cursol>
+    </div>
   )
 }
 
